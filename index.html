@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moca.space — Creative Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="site-header" id="home">
+        <nav class="nav" aria-label="Primary">
+            <a class="nav__brand" href="index.html">
+                <img src="/assets/images/logo/mocalogoB2.webp" alt="Moca.space logo">
+            </a>
+            <button class="nav__toggle" id="hamburger" aria-expanded="false" aria-controls="primary-menu">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav__menu" id="primary-menu">
+                <ul class="nav__links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="pages/projects.html">Projects</a></li>
+                    <li><a href="pages/teams.html">Teams</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+                <button class="nav__search" type="button" data-search-toggle>
+                    <span class="sr-only">Open site search</span>
+                </button>
+                <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle light or dark mode"></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__grid">
+                <div class="hero__copy">
+                    <p class="eyebrow">moca.space</p>
+                    <h1>The Screen is Your Stage.</h1>
+                    <p>Capture attention in milliseconds. Our multimedia-first approach turns every interaction—clicks, scrolls, or views—into deep engagement and lasting connections.</p>
+                    <div class="hero__cta">
+                        <a class="btn btn-primary" href="pages/projects.html">View Projects</a>
+                        <a class="btn btn-ghost" href="pages/contact.html">Get in touch</a>
+                    </div>
+                </div>
+                <div class="hero__visual reveal-scale">
+                    <div class="hero__orb" aria-hidden="true"></div>
+                    <img src="assets/images/logo/pinkcat.webp" alt="3D pink cat sculpture">
+                </div>
+            </div>
+        </section>
+
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-heading section-heading--split">
+                    <img class="tag-image" src="assets/images/logo/Tag_OurServices.webp" alt="Our Services">
+                    <div class="heading-left">
+                        <h2>Creative Services Designed to Elevate Your Vision.</h2>
+                    </div>
+                    <div class="heading-right">
+                        <p>We craft impactful experiences for your customers, transforming their journey and ensuring every interaction is a memorable one.</p>
+                    </div>
+                    <a class="btn btn-service" href="pages/projects.html">View All Service</a>
+                </div>
+                <div class="services__grid">
+                    <article class="service-card reveal-up">
+                        <h3>Graphic Design</h3>
+                        <p>Brand worlds, campaign visuals, and every frame that sells your story.</p>
+                    </article>
+                    <article class="service-card reveal-up">
+                        <h3>Illustration & Drawing</h3>
+                        <p>Hand-crafted illustrations and character systems for distinctive storytelling.</p>
+                    </article>
+                    <article class="service-card reveal-up">
+                        <h3>Photography</h3>
+                        <p>High-end product, fashion, and editorial shoots tailored to your launch.</p>
+                    </article>
+                    <article class="service-card reveal-up">
+                        <h3>Motion Graphic</h3>
+                        <p>Expressive animation and reel-ready sequences engineered to move fast.</p>
+                    </article>
+                    <article class="service-card reveal-up">
+                        <h3>Web & App</h3>
+                        <p>Immersive digital experiences built for performance and resilience.</p>
+                    </article>
+                    <article class="service-card reveal-up">
+                        <h3>UX / UI Design</h3>
+                        <p>Human-centered design systems and prototypes that convert on every screen.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="marquee" aria-label="Studio marquee">
+            <div class="marquee__track">
+                <span>@ moca.space &nbsp;•&nbsp; Creative Lab &nbsp;•&nbsp; Digital Storytelling &nbsp;•&nbsp;</span>
+                <span>@ moca.space &nbsp;•&nbsp; Creative Lab &nbsp;•&nbsp; Digital Storytelling &nbsp;•&nbsp;</span>
+                <span>@ moca.space &nbsp;•&nbsp; Creative Lab &nbsp;•&nbsp; Digital Storytelling &nbsp;•&nbsp;</span>
+            </div>
+        </section>
+<section class="section works" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <img class="tag-image" src="assets/images/logo/Tag_OurCreativeWorks.webp" alt="Our Creative Works">
+                    <h2>We bring creativity to life, one launch at a time.</h2>
+                    <p>Each project blends strategy, craft, and technology—ready for today’s fastest-moving briefs.</p>
+                </div>
+                <div class="carousel" data-carousel="works">
+                    <button class="carousel__nav" data-dir="prev" aria-label="Previous work"></button>
+                    <div class="carousel__track">
+                
+                        <article class="work-card reveal-up">
+                            <img src="assets/images/ผลงาน/GPD-1.webp" alt="Graphic project" loading="lazy" data-lightbox="assets/images/ผลงาน/GPD-1.webp">
+                            <h3>Retail Graphic System</h3>
+                            <p>Vibrant storytelling for seasonal retail experiences.</p>
+                        </article>
+                        <article class="work-card reveal-up">
+                            <img src="assets/images/ผลงาน/GPD-2.webp" alt="Campaign art" loading="lazy" data-lightbox="assets/images/ผลงาน/GPD-2.webp">
+                            <h3>Campaign Art Direction</h3>
+                            <p>Bold compositions engineered for social speed.</p>
+                        </article>
+                        <article class="work-card reveal-up">
+                            <img src="assets/images/ผลงาน/GPD-3.webp" alt="Illustration board" loading="lazy" data-lightbox="assets/images/ผลงาน/GPD-3.webp">
+                            <h3>Illustrated Narratives</h3>
+                            <p>Hand-drawn characters and environments.</p>
+                        </article>
+                        <article class="work-card reveal-up">
+                            <img src="assets/images/ผลงาน/piece_Gif1.gif" alt="Motion frames" loading="lazy" data-lightbox="assets/images/ผลงาน/piece_1.webp">
+                            <h3>Motion Frames</h3>
+                            <p>Expressive gradients, seamless loops.</p>
+                        </article>
+                        <article class="work-card reveal-up">
+                            <img src="assets/images/ผลงาน/piece_2.webp" alt="Product render" loading="lazy" data-lightbox="assets/images/ผลงาน/piece_2.webp">
+                            <h3>Product Visualization</h3>
+                            <p>Photoreal visuals with cinematic lighting.</p>
+                        </article>
+                        <article class="work-card reveal-up">
+                            <img src="assets/images/ผลงาน/ui.webp" alt="Mobile UI" loading="lazy" data-lightbox="assets/images/ผลงาน/piece_Gif1.gif">
+                            <h3>Mobile UI Kit</h3>
+                            <p>Interface system balancing delight and clarity.</p>
+                        </article>
+                    </div>
+                    <button class="carousel__nav" data-dir="next" aria-label="Next work"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section gallery" id="gallery">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>GALLERY</h1>
+                    <p>We bring creativity to life through visuals, design, and storytelling.</p>
+                    <p>Our portfolio includes projects across graphic design, photography, illustration, motion, and digital experiences — each crafted with an artistic touch and attention to detail.</p>
+                </div>
+                <div class="gallery__scroller" data-carousel="gallery">
+                    <button class="carousel__nav" data-dir="prev" aria-label="Previous gallery"></button>
+                    <div class="gallery__track">
+                        <article class="gallery-card reveal-up">
+                            <img src="assets/images/ผลงาน/GPD-3.webp" alt="Graphic art" loading="lazy" data-lightbox="assets/images/สมาชิก/MCSM-GameA.webp">
+                            <h3>Graphic</h3>
+                        </article>
+                        <article class="gallery-card reveal-up">
+                            <img src="assets/images/สมาชิก/MCSM-all4.webp" alt="Photography shot" loading="lazy" data-lightbox="assets/images/สมาชิก/MCSM-all4.webp">
+                            <h3>Photography</h3>
+                        </article>
+                        <article class="gallery-card reveal-up">
+                            <img src="assets/images/ผลงาน/main_screen.webp" alt="Web project" loading="lazy" data-lightbox="assets/images/สมาชิก/MCSM-all3.webp">
+                            <h3>Web &amp; App</h3>
+                        </article>
+                        <article class="gallery-card reveal-up">
+                            <img src="assets/images/ผลงาน/วาด2.webp" alt="Drawing sketch" loading="lazy" data-lightbox="assets/images/สมาชิก/MCSM-all2.webp">
+                            <h3>Drawing</h3>
+                        </article>
+                        <article class="gallery-card reveal-up">
+                            <img src="assets/images/ผลงาน/วาด3.webp" alt="Illustration" loading="lazy" data-lightbox="assets/images/สมาชิก/MCSM-all1.webp">
+                            <h3>Illustration</h3>
+                        </article>
+                    </div>
+                    <button class="carousel__nav" data-dir="next" aria-label="Next gallery"></button>
+                </div>
+                <div class="gallery__dots" aria-hidden="true">
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="section team" id="team">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Meet the talented team who</h2>
+                    <p class="section-subtitle"><em>make all this happen</em></p>
+                </div>
+                <div class="team__grid">
+                    <article class="team-card">
+                        <img src="assets/images/สมาชิก/member1.webp" alt="Team member">
+                        <h3>Tanchanok Tamsakul</h3>
+                        <p>UX/UI AND CODEING
+                        </p>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/สมาชิก/member2.webp" alt="Team member">
+                        <h3>Chutima Jiramongkol</h3>
+                        <p>UX/UI</p>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/สมาชิก/member3.webp" alt="Team member">
+                        <h3>Watsida Amorngijwanit</h3>
+                        <p>CODEING</p>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/สมาชิก/member4.webp" alt="Team member">
+                        <h3>Krittmet Changkaew</h3>
+                        <p>UX/UI</p>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/สมาชิก/member5.webp" alt="Team member">
+                        <h3>Peerapat raraiwan</h3>
+                        <p>UX/UI</p>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/สมาชิก/member6.webp" alt="Team member">
+                        <h3>Pratiphan Chuenarom</h3>
+                        <p>UX/UI</p>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/สมาชิก/member7.webp" alt="Team member">
+                        <h3>Tharitsanu Rasrisuay</h3>
+                        <p>UX/UI</p>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/สมาชิก/member8.webp" alt="Team member">
+                        <h3>Jeerawat Thongonthunyanij</h3>
+                        <p>UX/UI</p>
+                    </article>
+                </div>
+                <div class="team__cta">
+                    <a class="btn btn-light btn-large" href="pages/teams.html">MEET THE TEAM</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="marquee" aria-label="Studio marquee">
+            <div class="marquee__track">
+                <span>@ moca.space &nbsp;•&nbsp; Creative Lab &nbsp;•&nbsp; Digital Storytelling &nbsp;•&nbsp;</span>
+                <span>@ moca.space &nbsp;•&nbsp; Creative Lab &nbsp;•&nbsp; Digital Storytelling &nbsp;•&nbsp;</span>
+                <span>@ moca.space &nbsp;•&nbsp; Creative Lab &nbsp;•&nbsp; Digital Storytelling &nbsp;•&nbsp;</span>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="container cta__content">
+                <p>Ready to move faster?</p>
+                <h2>Let’s design the experience your audience can’t ignore.</h2>
+                <a class="btn btn-outline" href="pages/contact.html">Start a project</a>
+            </div>
+        </section>
+    </main>
+
+    <div class="search-overlay" id="searchOverlay" aria-hidden="true">
+        <div class="search-overlay__panel" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+            <div class="search-overlay__header">
+                <h3 id="searchTitle">Search the site</h3>
+                <button class="search-overlay__close" type="button" data-search-toggle aria-label="Close search">&times;</button>
+            </div>
+            <div class="search-overlay__body">
+                <label for="searchInput">What are you looking for?</label>
+                <input id="searchInput" type="search" placeholder="Type keywords e.g. projects, team, contact" autocomplete="off">
+                <ul class="search-overlay__results" id="searchResults" role="listbox"></ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="contact">
+        <div class="container footer__grid">
+            <div>
+                <img src="assets/images/logo/mocalogoW2.webp" alt="Moca.space white logo" class="footer__logo">
+                <p>Capture attention in milliseconds. We deliver seamless, high-performance digital experiences.</p>
+            </div>
+            <div>
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="pages/projects.html">Projects</a></li>
+                    <li><a href="pages/teams.html">Teams</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Stay in the loop</h4>
+                <form class="subscribe" action="#" method="post">
+                    <label class="sr-only" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="footer__meta">
+                    <p>Email us: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
+                    <p>Call us: <a href="tel:+660123456789">+66 012 345 6789</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            <p>@ Moca.space</p>
+            <div class="footer__dots"><span></span><span></span></div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
